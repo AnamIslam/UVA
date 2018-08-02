@@ -2,7 +2,7 @@
 
 int main()
 {
-    while(1)
+    while(2)
     {
         long long int a;
         scanf("%lld", &a);
