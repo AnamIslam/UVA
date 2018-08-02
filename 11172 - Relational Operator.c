@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main()
+{
+    int a,b,n,i;
+    scanf("%d", &n); //TEST CASE INPUT
+
+    for(i=0;i<n;i++)
+    {
+        scanf("%d %d", &a, &b);//DATA INPUT
+
+        if(a<b)
+            printf("<\n");
+        else if(a>b)
+            printf(">\n");
+        else
+            printf("=\n");
+
+    }
+
+    return 0;
+}
